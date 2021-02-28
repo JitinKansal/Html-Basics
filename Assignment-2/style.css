@@ -1,0 +1,22 @@
+
+div {
+    background-color: #eae0d5;
+    padding: 10px;
+}
+
+dt {
+    background-color: #c6ac8f;
+    padding:10px;
+    margin: 1px;
+    border: 1px solid black;
+    color: #463f3a;
+    position: sticky;
+    top: 2px;
+}
+
+dd {
+    /* background-color: #dad7cd; */
+    border-bottom: 1px solid black;
+    margin: 1px;
+    padding: 10px 0 0 0;
+}
