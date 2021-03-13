@@ -1,0 +1,31 @@
+
+body{
+    background-color: black;
+    transition-property: all;
+    transition-duration: 5s;
+    text-align: center;
+}
+
+button{
+    margin-top: 250px;
+    width: 150px;
+    height: 50px;
+    font-size: 150%;
+    padding: auto;
+    text-align: center;
+    color: #f4a261;
+    border: 2px solid #f4a261;
+    background-color: black;
+}
+
+button:hover{
+    border-color: #70e000;
+    color: #70e000;
+    box-shadow: 0 1px 0 -2px #3b9433,
+               0 0 5px rgba(57, 196, 75, 0.1),
+               0 1px 3px  rgba(27, 150, 33, 0.3),
+               0 3px 5px rgba(30, 187, 24, 0.2),
+               0 5px 5px rgba(44, 207, 44, 0.25);
+
+    transform: translateY(-6px);
+}
