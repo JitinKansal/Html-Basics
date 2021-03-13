@@ -1,0 +1,34 @@
+
+.heading{
+    font-size: 20px;
+    width: 300px;
+    animation: msg 5s alternate infinite ease-in;
+}
+@keyframes msg{
+    to{
+        transform: translateX(800px);
+    }
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    animation: fall 1s alternate infinite ease-in;
+}
+.ball img{
+    animation: rotate 2s infinite;
+}
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes fall{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(470px);
+    }
+}
