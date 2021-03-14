@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
 }
-
 a{
     text-decoration: none;
     color: white;
@@ -32,7 +31,6 @@ nav #site-search{
 .cover{
     width:80%;
     height: 500px;
-    /* background-image: url('./image1.jpg'); */
     margin: 30px auto;
     animation: pictures 10s infinite ease-in;
     background-size: 100vw 100vh; 
@@ -55,13 +53,12 @@ nav #site-search{
     }
     100%{
         background-image: url('./image6.jpg');
-    }
+    }   
 }
 
 .cards{
     background-color: #2a9d8f;
     color: white;
-    /* border: 1px solid #ccc; */
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
     grid-auto-rows: minmax(300px,auto);
