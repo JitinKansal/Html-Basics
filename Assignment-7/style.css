@@ -1,0 +1,34 @@
+body{
+    background-image: url('./mountains.jpeg');
+    background-size: cover;
+}
+*{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    text-transform:capitalize;
+}
+
+#search{
+    border-radius:10px 100px / 120px;
+    border: 3px solid rgb(27, 132, 192);
+    box-shadow: 1px 2px 2px 4px rgb(173, 216, 226);
+    font-size: medium   ;
+}
+#search:focus{
+    outline: none;
+}
+
+#content {
+    margin: 40px auto;
+}
+
+
+#temp,#desc,#city{
+    margin: 20px auto;
+}
+
+h1,h2,h4{
+    padding: 5px;
+}
